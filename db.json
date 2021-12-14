@@ -1,0 +1,225 @@
+{
+  "users": [
+    {
+      "name": "kk",
+      "profileArray": [
+        {
+          "url": "../../assets/profile-images/Ellipse -3.png"
+        },
+        {
+          "url": "../../assets/profile-images/Ellipse -1.png"
+        },
+        {
+          "url": "../../assets/profile-images/Ellipse -8.png"
+        },
+        {
+          "url": "../../assets/profile-images/Ellipse -7.png"
+        }
+      ],
+      "allDepartment": [
+        "HR",
+        "Sales",
+        "Finance",
+        "Engineer",
+        "Others"
+      ],
+      "departMentValue": [
+        "Finance"
+      ],
+      "gender": "female",
+      "salary": "",
+      "day": "",
+      "month": "",
+      "year": "",
+      "startDate": "",
+      "notes": "",
+      "id": 1,
+      "profilePic": "../../assets/profile-images/Ellipse -1.png",
+      "isUpdate": false,
+      "error": {
+        "department": "",
+        "name": "",
+        "gender": "",
+        "salary": "",
+        "profilePic": "",
+        "startDate": ""
+      }
+    },
+    {
+      "name": "Kajal",
+      "profileArray": [
+        {
+          "url": "../../assets/profile-images/Ellipse -3.png"
+        },
+        {
+          "url": "../../assets/profile-images/Ellipse -1.png"
+        },
+        {
+          "url": "../../assets/profile-images/Ellipse -8.png"
+        },
+        {
+          "url": "../../assets/profile-images/Ellipse -7.png"
+        }
+      ],
+      "allDepartment": [
+        "HR",
+        "Sales",
+        "Finance",
+        "Engineer",
+        "Others"
+      ],
+      "departMentValue": [],
+      "gender": "",
+      "salary": "",
+      "day": "",
+      "month": "",
+      "year": "",
+      "startDate": "",
+      "notes": "",
+      "id": 2,
+      "profilePic": "",
+      "isUpdate": false,
+      "error": {
+        "department": "",
+        "name": "",
+        "gender": "",
+        "salary": "",
+        "profilePic": "",
+        "startDate": ""
+      }
+    },
+    {
+      "name": "Kajal",
+      "profileArray": [
+        {
+          "url": "../../assets/profile-images/Ellipse -3.png"
+        },
+        {
+          "url": "../../assets/profile-images/Ellipse -1.png"
+        },
+        {
+          "url": "../../assets/profile-images/Ellipse -8.png"
+        },
+        {
+          "url": "../../assets/profile-images/Ellipse -7.png"
+        }
+      ],
+      "allDepartment": [
+        "HR",
+        "Sales",
+        "Finance",
+        "Engineer",
+        "Others"
+      ],
+      "departMentValue": [],
+      "gender": "",
+      "salary": "",
+      "day": "",
+      "month": "",
+      "year": "",
+      "startDate": "",
+      "notes": "",
+      "id": 3,
+      "profilePic": "",
+      "isUpdate": false,
+      "error": {
+        "department": "",
+        "name": "",
+        "gender": "",
+        "salary": "",
+        "profilePic": "",
+        "startDate": ""
+      }
+    },
+    {
+      "name": "rahul",
+      "profileArray": [
+        {
+          "url": "../../assets/profile-images/Ellipse -3.png"
+        },
+        {
+          "url": "../../assets/profile-images/Ellipse -1.png"
+        },
+        {
+          "url": "../../assets/profile-images/Ellipse -8.png"
+        },
+        {
+          "url": "../../assets/profile-images/Ellipse -7.png"
+        }
+      ],
+      "allDepartment": [
+        "HR",
+        "Sales",
+        "Finance",
+        "Engineer",
+        "Others"
+      ],
+      "departMentValue": [
+        "Finance"
+      ],
+      "gender": "male",
+      "salary": "",
+      "day": "",
+      "month": "",
+      "year": "",
+      "startDate": "",
+      "notes": "",
+      "id": 4,
+      "profilePic": "../../assets/profile-images/Ellipse -3.png",
+      "isUpdate": false,
+      "error": {
+        "department": "",
+        "name": "",
+        "gender": "",
+        "salary": "",
+        "profilePic": "",
+        "startDate": ""
+      }
+    },
+    {
+      "name": "kajal mane",
+      "profileArray": [
+        {
+          "url": "../../assets/profile-images/Ellipse -3.png"
+        },
+        {
+          "url": "../../assets/profile-images/Ellipse -1.png"
+        },
+        {
+          "url": "../../assets/profile-images/Ellipse -8.png"
+        },
+        {
+          "url": "../../assets/profile-images/Ellipse -7.png"
+        }
+      ],
+      "allDepartment": [
+        "HR",
+        "Sales",
+        "Finance",
+        "Engineer",
+        "Others"
+      ],
+      "departMentValue": [
+        "Sales"
+      ],
+      "gender": "female",
+      "salary": "1324235",
+      "day": "19",
+      "month": "Mar",
+      "year": "2020",
+      "startDate": "",
+      "notes": "hii",
+      "id": 5,
+      "profilePic": "../../assets/profile-images/Ellipse -1.png",
+      "isUpdate": false,
+      "error": {
+        "department": "",
+        "name": "",
+        "gender": "",
+        "salary": "",
+        "profilePic": "",
+        "startDate": ""
+      }
+    }
+  ]
+}
