@@ -6,10 +6,10 @@ const User = () => {
     const [user, setUser] = useState({
         name: '',
             profileArray: [
-                { url: '../../assets/profile-images/Ellipse -3.png' },
-                { url: '../../assets/profile-images/Ellipse -1.png' },
-                { url: '../../assets/profile-images/Ellipse -8.png' },
-                { url: '../../assets/profile-images/Ellipse -7.png' }
+                { url: '../../Assets/profile-images/Ellipse -3.png' },
+                { url: '../../Assets/profile-images/Ellipse -1.png' },
+                { url: '../../Assets/profile-images/Ellipse -8.png' },
+                { url: '../../Assets/profile-images/Ellipse -7.png' }
     
             ],
             allDepartment: [

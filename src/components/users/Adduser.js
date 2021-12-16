@@ -13,10 +13,10 @@ const AddUser = () => {
   const [user, setUser] = useState({
     name: '',
         profileArray: [
-            { url: '../../assets/profile-images/Ellipse -3.png' },
-            { url: '../../assets/profile-images/Ellipse -1.png' },
-            { url: '../../assets/profile-images/Ellipse -8.png' },
-            { url: '../../assets/profile-images/Ellipse -7.png' }
+            { url: '../../Assets/profile-images/Ellipse -3.png' },
+            { url: '../../Assets/profile-images/Ellipse -1.png' },
+            { url: '../../Assets/profile-images/Ellipse -8.png' },
+            { url: '../../Assets/profile-images/Ellipse -7.png' }
 
         ],
         allDepartment: [
@@ -49,6 +49,7 @@ const AddUser = () => {
   };
 
   const onSubmit = async event => {
+      console.log(user);
     event.preventDefault();
     await axios.post("http://localhost:3001/users", user);
     history.push("/");
@@ -94,19 +95,19 @@ const getChecked = (name) => {
                     <label className="label text" htmlFor="profilePic">Profile image</label>
                     <div className="profile-radio-content">
                         <label >
-                            <input type="radio" name="profilePic" checked={user.profilePic === '../../assets/profile-images/Ellipse -1.png'} value="../../assets/profile-images/Ellipse -1.png" onChange={changeValue} />
+                            <input type="radio" name="profilePic" checked={user.profilePic === '../../Assets/profile-images/Ellipse -1.png'} value="../../Assets/profile-images/Ellipse -1.png" onChange={changeValue} />
                             <img className="profile" src={profile2} alt="profile" />
                         </label>
                         <label >
-                            <input type="radio" name="profilePic" checked={user.profilePic === '../../assets/profile-images/Ellipse -3.png'} value="../../assets/profile-images/Ellipse -3.png" onChange={changeValue} />
+                            <input type="radio" name="profilePic" checked={user.profilePic === '../../Assets/profile-images/Ellipse -3.png'} value="../../Assets/profile-images/Ellipse -3.png" onChange={changeValue} />
                             <img className="profile" src={profile1} alt="profile" />
                         </label>
                         <label >
-                            <input type="radio" name="profilePic" checked={user.profilePic === '../../assets/profile-images/Ellipse -7.png'} value="../../assets/profile-images/Ellipse -7.png" onChange={changeValue} />
+                            <input type="radio" name="profilePic" checked={user.profilePic === '../../Assets/profile-images/Ellipse -7.png'} value="../../Assets/profile-images/Ellipse -7.png" onChange={changeValue} />
                             <img className="profile" src={profile4} alt="profile" />
                         </label>
                         <label >
-                            <input type="radio" name="profilePic" checked={user.profilePic === '../../assets/profile-images/Ellipse -8.png'} value="../../assets/profile-images/Ellipse -8.png" onChange={changeValue} />
+                            <input type="radio" name="profilePic" checked={user.profilePic === '../../Assets/profile-images/Ellipse -8.png'} value="../../Assets/profile-images/Ellipse -8.png" onChange={changeValue} />
                             <img className="profile" src={profile3} alt="profile" />
                         </label>
 

@@ -10,6 +10,7 @@ import { useHistory, useParams } from "react-router-dom";
 import {Link} from 'react-router-dom';
 const AddUser = () => {
   let history = useHistory();
+  
   const { id } = useParams();
   const [user, setUser] = useState({
     name: '',
